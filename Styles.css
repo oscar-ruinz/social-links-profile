@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+.container{
+    width: 90%;
+    height: 650px;
+    background-color: hsl(0, 0%, 12%);
+    margin: 100px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+.container h1, .container p{
+    width: 90%;
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 12%);
+}
+.container img{
+    width: 96px;
+    border-radius: 100px;
+    margin: 30px auto;
+}
+.container h1{
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+p.city{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+p.description{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.container a{
+    display: block;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 18px;
+    margin: 15px;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 700;
+}
+.container a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+@media (min-width: 400px) {
+    .container{
+        width: 400px;
+        height: 650px;
+    }
+    .container h1, .container p{
+        width: 90%;
+        margin: 0 auto;
+        background-color: hsl(0, 0%, 12%);
+    }
+    .container img{
+        width: 96px;
+        border-radius: 100px;
+        margin: 30px auto;
+    }
+    .container h1{
+        font-size: 26px;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+    p.city{
+        color: hsl(75, 94%, 57%);
+        margin-bottom: 30px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    p.description{
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+    .container a{
+        width: 80%;
+        display: block;
+        text-decoration: none;
+        border-radius: 10px;
+        padding: 18px;
+        margin: 15px auto;
+        background-color: hsl(0, 0%, 20%);
+        font-weight: 700;
+    }
+    .container a:hover{
+        background-color: hsl(75, 94%, 57%);
+        color: hsl(0, 0%, 12%);
+    }
+}
